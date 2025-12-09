@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #000814;
+    color: #e0e6f0;
+}
+
+
+header {
+    background: #000;
+    padding: 20px;
+    border-bottom: 2px solid #0040ff;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.4);
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 2.7rem;
+    margin-top: 10px;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    border-left: 4px solid #0040ff;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.projetos ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.9rem;
+}
+
+
+.cert-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cert-item {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    background: #000;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 102, 255, 0.3);
+}
+
+
+footer {
+    background: #001a33;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
